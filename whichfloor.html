@@ -4,15 +4,15 @@
 </head>
 <body>
 	<script>
-	 var maximum_stories = 12;
-	 work = prompt("On what floor of the the building is your office?");
+	 var maximum_stories = 21;
+	 work = prompt("On what floor of the the building is your office? ");
 	 floor = parseInt(work);
 	 while (floor > maximum_stories){
-	 	console.log(floor+" is greater than the amount of floor in the building. These are 12 floors, please try again.");
-	 	work = prompt("On what floor of the building is your office?");
+	 	console.log(floor+" is greater than the amount of floor in the building. These are 21 floors, please try again.");
+	 	work = prompt("On what floor of the building is your office? ");
 	 	floor = parseInt(work);
 	 }
-	 console.log("Congratulations, "+floor+" is a valid designation.")
+	 console.log("Congratulations, floor "+floor+" is your workplace.")
 	
 	</script>
 </body>
